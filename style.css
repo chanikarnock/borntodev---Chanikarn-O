@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    text-align: center;
+    font-family: 'Prompt';
+    padding: 3rem 0;
+    background: #e6d5b8;
+
+}
+
+.wrapper{
+    display: inline-block;
+    padding: 2em 3em 10em 3em;
+    margin-top: 3rem;
+    margin: 2rem;
+    background: #f2edd7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(22, 21, 21, 0.2);
+}
+input[type=text] {
+    margin: .4em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    
+  }
+#result-display{
+    display: none;
+    padding: 3em 22em 4em 22em;   
+    margin: 1rem;    
+    border-radius: 15px;    
+    background: #4a3933;
+  }
+#result
+{
+    margin-top: 1rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight:800;
+    color: #f2edd7;
+  }
+#detail-result
+{
+    margin-top: 1rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color: #f2edd7;
+  }
+
+button{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem 5rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.5s ease;
+    background: #4a3933;
+    color: #f2edd7;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight:800;
+
+}
+button:hover{
+    transform: scale(1.2);
+    background: #e45826;
+}

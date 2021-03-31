@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Web App สำหรับเปรียบเทียบความคุ้มค่าของสินค้า</title>
+    </head>
+
+    <body>
+        <h1>เปรียบเทียบความคุ้มค่าระหว่างสินค้า 2 ชิ้น</h1>
+        <div id="input-product1" class="wrapper">
+            <b>ระบุข้อมูลสินค้าชิ้นที่ 1</b><br><br>
+            <input id="inptQrt1" type="text" placeholder="ปริมาตร หรือ ปริมาณ"><br>
+            <input id="inptPrice1" type="text" placeholder="ราคา">
+        </div>
+        <div id="input-product2" class="wrapper">
+            <b>ระบุข้อมูลสินค้าชิ้นที่ 2</b><br><br>
+            <input id="inptQrt2" type="text" placeholder="ปริมาตร หรือ ปริมาณ"><br>
+            <input id="inptPrice2" type="text" placeholder="ราคา">
+        </div>
+        <br>
+        <div id="result-display">
+            <p id="result">xxxxx</p>
+            <p id="detail-result">xxxxx</p>
+        </div>
+        <br>        
+        <button onclick="calculateWorth()">คำนวณ</button>
+        <script src="app.js"></script>
+    </body>
+
+</html>
